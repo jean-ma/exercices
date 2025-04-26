@@ -1,0 +1,16 @@
+[package]
+name = "queues"
+version = "0.1.0"
+edition = "2024"
+
+[dev-dependencies]
+criterion = "0.5.1"
+pprof = { version = "0.14", features = ["flamegraph", "criterion"] }
+
+[[bench]]
+name = "single_threaded"
+harness = false
+
+[dependencies]
+rand = "0.9.1"
+rand_chacha = "0.9.0"
