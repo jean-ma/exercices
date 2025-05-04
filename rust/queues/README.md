@@ -10,7 +10,7 @@ cargo bench
 
 Detailed reports as html in ./target/criterion
 
-## CPU flamegraph
+## CPU flame graph
 
 It doesn't work without `--bench single_threaded`:
 
